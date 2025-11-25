@@ -1,0 +1,81 @@
+## Build results
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.suo
+*.user
+*.userprefs
+*.ncb
+*.aps
+*.vmoptions
+*.log
+*.bak
+*.cache
+*.com
+*.class
+*.dll.config
+*.sbr
+*.bsc
+*.lib
+*.ncb
+*.orig
+*.obj
+*.o
+*.pch
+*.ipdb
+*.iobj
+*.tlb
+*.tlh
+*.tmp
+*.vspscc
+*.vssscc
+
+# Visual Studio files
+*.sln.docstates
+*.vsp
+*.vpw
+*.suo
+*.opensdf
+*.sdf
+*.tlog
+
+# Rider (JetBrains IDE)
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+# Packages folder
+[Pp]ackages/
+# NuGet cache files
+*.nupkg
+*.snk
+
+# Resharper/dotCover/etc.
+*.ReSharperManagedFiles
+_ReSharper.*/
+
+# Temporary files used by VS Test Tools
+*.trx
+TestResults
+
+# Code analysis results
+CodeAnalysisReport.xml
+CodeAnalysisReport.html
+
+# Database files
+*.mdf
+*.ldf
+
+# Local web files
+Web.config.user
+
+# Git related files
+.git/
+.gitignore
