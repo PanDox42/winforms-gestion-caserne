@@ -1,4 +1,6 @@
 # 🚒 Projet Gestion Caserne
+[![Status](https://camo.githubusercontent.com/43016e90af7ddd2f27160ce75c236c7c5380d0b2c4812d3153751e1053c39179/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374617475742d5465726d696e2543332541392d73756363657373)](https://github.com/PanDox42/winforms-gestion-caserne)
+
 
 Une application **Windows Forms** en **C#** permettant de gérer une caserne de pompiers : interventions, véhicules, pompiers, et habilitations.  
 
@@ -24,7 +26,8 @@ L’interface graphique en **WinForms** rend l’usage intuitif et adapté à un
 - ⚠️ **Gestion des interventions** : type, localisation, ressources nécessaires
 - 🧾 **Sélection automatique** des pompiers et véhicules selon les habilitations requises
 - 🔍 **Recherche et filtrage** dans les listes
-- 💾 **Sauvegarde des données** via un `DataSet` local
+- 💾 **Sauvegarde des données** via un `DataSet` local (mode déconnecté) ainsi qu'à une `base de données` (mode connecté)
+- 🖨 **Generation des comptes rendus** en PDF dans le dossier `comptes_rendus` lorsque le bouton de génération est cliqué dans l'application
 
 ---
 
@@ -32,7 +35,7 @@ L’interface graphique en **WinForms** rend l’usage intuitif et adapté à un
 
 - **Langage :** C#  
 - **Framework :** .NET (Windows Forms)  
-- **Données :** `DataSet` et fichiers XML  
+- **Données :** `DataSet`, fichiers XML et base de données en `.db` 
 - **IDE recommandé :** Visual Studio  
 - **Patrons utilisés :** séparation entre couches UI / logique / données  
 
@@ -41,11 +44,17 @@ L’interface graphique en **WinForms** rend l’usage intuitif et adapté à un
 ## ⚙️ Installation & configuration
 
 ### 1. Prérequis
-- Windows  
+- Windows
+
+Si vous voulez éditer le projet : 
 - Visual Studio (avec le workload `.NET desktop development`)  
 
 ### 2. Cloner le dépôt
+```git
+git clone https://github.com/PanDox42/winforms-gestion-caserne
+```
 
 ### 3. Lancer l'application 
 ```path
-'SAE24-MARTIN-Josue_SCHNIDER--SYLVESTRE-Martin_AKGUL-Illian\SAE A21-D21 - Projet Caserne\bin\Debug\SAE A21-D21 - Projet Caserne.exe'
+'SAE A21-D21 - Projet Caserne\bin\Debug\SAE A21-D21 - Projet Caserne.exe'
+```
