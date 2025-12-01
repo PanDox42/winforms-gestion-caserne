@@ -24,7 +24,7 @@ L’interface graphique en **WinForms** rend l’usage intuitif et adapté à un
 - 👨‍🚒 **Gestion des pompiers** (ajout, modification, suppression)
 - 🚒 **Gestion des véhicules** selon leur disponibilité et type
 - ⚠️ **Gestion des interventions** : type, localisation, ressources nécessaires
-- 🧾 **Sélection automatique** des pompiers et véhicules selon les habilitations requises
+- 🧾 **Sélection automatique ou manuelle** des pompiers et véhicules selon les habilitations requises quand on lance une mission 
 - 🔍 **Recherche et filtrage** dans les listes
 - 💾 **Sauvegarde des données** via un `DataSet` local (mode déconnecté) ainsi qu'à une `base de données` (mode connecté)
 - 🖨 **Generation des comptes rendus** en PDF dans le dossier `comptes_rendus` lorsque le bouton de génération est cliqué dans l'application
