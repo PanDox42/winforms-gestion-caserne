@@ -41,6 +41,30 @@ L’interface graphique en **WinForms** rend l’usage intuitif et adapté à un
 
 ---
 
+## 🖼️ Quelques images du jeu
+
+
+<div align="center">
+
+# Tableau de Bord
+<img src="img/tableau_de_bord.jpg" alt="Main Menu" width="800">
+
+# Nouvelle Mission
+<img src="img/nouvelle_mission.jpg" alt="New Game" width="800">
+
+# Gestion du Personnel (Mode Visualisation)
+<img src="img/gestion_personnel_visualisation.jpg" alt="Load Game" width="800">
+
+# Gestion du Personnel (Mode Administrateur)
+<img src="img/gestion_personnel_administrateur.jpg" alt="In Game" width="800">
+
+# Ajouter du Personnel
+<img src="img/ajouter_personnel.jpg" alt="Disaster" width="800">
+
+</div>
+
+---
+
 ## ⚙️ Installation & configuration
 
 ### 1. Prérequis
