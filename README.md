@@ -41,7 +41,7 @@ L’interface graphique en **WinForms** rend l’usage intuitif et adapté à un
 
 ---
 
-## 🖼️ Quelques images du jeu
+## 🖼️ Quelques images de l'application
 
 
 <div align="center">
